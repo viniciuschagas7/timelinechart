@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline Chart</title>
+    <script src="timelinechart.js"></script>
+</head>
+<body>
+    <div>
+        <p>Coloque a data aqui:</p>
+        <input type="text" id="data">
+        <input type="submit" onclick="inserirDatas()" value="Inserir data!">
+        <p>Coloque o valor aqui:</p>
+        <input type="text" id="valor">
+        <input type="submit" onclick="inserirValores()" value="Inserir valor!"><br><br>
+        <input type="submit" onclick="montarGrafico()" value="Montar gráfico!"><br><br>
+        <input type="submit" onclick="exporGrafico()" value="Expor gráfico!"><br><br>
+        <table>
+            <p id="exporGrafico"></p>
+        </table>
+    </div>
+</body>
+</html>
